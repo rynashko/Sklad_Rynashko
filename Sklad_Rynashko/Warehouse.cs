@@ -30,7 +30,7 @@ namespace Sklad_Rynashko
             invoices.Add(new Invoice("П-" + (invoices.Count + 1), "Приходная", $"{newProduct.Name}: {newProduct.Quantity}"));
         }
 
-        // Алгоритм регистрации отгрузки (Расходная накладная)
+        // Алгоритм регистрации отгрузки (Расходная накладная) 
         public bool RegisterShipment(string name, double qty)
         {
             var product = products.FirstOrDefault(p => p.Name == name);

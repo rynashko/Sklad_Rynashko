@@ -8,7 +8,7 @@ namespace Sklad_Rynashko
         public string Number { get; set; }  // Номер документа
         public DateTime Date { get; set; }  // Дата документа
         public string Type { get; set; }    // Тип: Приходная или Расходная
-        public string Content { get; set; } // Описание операции
+        public string Content { get; set; } // Описание операции  
 
         public Invoice(string number, string type, string content)
         {

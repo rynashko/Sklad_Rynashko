@@ -2,7 +2,7 @@
 
 namespace Sklad_Rynashko
 {
-    // Класс, описывающий товар на складе
+    // Класс, описывающий товар на складе 
     public class Product
     {
         public string Name { get; set; }           // Наименование
